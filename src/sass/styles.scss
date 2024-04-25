@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: azure;
+	display: flex;
+	justify-content: center; /* Alinha os itens horizontalmente no centro */
+	align-items: center; /* Alinha os itens verticalmente no centro */
+	height: 100vh;
+}
+
+.container {
+	width: 600px;
+	height: auto;
+	background-color: skyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	input {
+		padding: 10px;
+	}
+	.btn {
+		background-color: dodgerblue;
+		border-radius: 3px;
+		text-transform: uppercase;
+		font-weight: 700;
+		border: 1px solid black;
+		padding: 10px 20px;
+		cursor: pointer;
+	}
+	.btn:hover {
+		background-color: aqua;
+	}
+}
